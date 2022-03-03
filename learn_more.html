@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Intrare | Connecting Web2 and Web3</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Bootstrap App Landing Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon3.png" />
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- MetaMask detect browser -->
+  <script src="https://unpkg.com/@metamask/detect-provider/dist/detect-provider.min.js"></script>
+
+  <!-- Moralis SDK code -->
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+  <div class="container">
+    <a class="navbar-brand" href="index.html" ><img width="180" height="660" src="images/logo.png" alt="logo"></a>
+  </div>
+</nav>
+
+<section class="call-to-action-app section" style="background-image: url('ppl_bg.jpg');">
+	<div class="container">
+		<div class="row">
+			<div class="m-auto">
+				<!-- Page Title -->
+				<h2 style="text-align: center">Frequently Asked Questions</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="faq section pt-3">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 m-auto">
+				<div class="block shadow">
+					<!-- Getting Started -->
+					<div class="faq-item">
+						<!-- Title -->
+						<div class="faq-item-title">
+							<h2>
+								
+							</h2>
+						</div>
+						<!-- Get Started Accordion -->
+						<div id="gstAccordion" data-children=".item">
+						  <!-- Accordion Item 01 -->
+						  <div class="item">
+						  	<div class="item-link">
+							    <a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion1">
+							      What does this site do?
+							    </a>
+						  	</div>
+						    <div id="gstAccordion1" class="collapse  accordion-block">
+						      <p>
+								Intrare is a platform that connects NFT communities with a global online marketplace.
+								We help provide NFT utility by providing holders access to discounts, perks, and other benefits 
+								of NFT ownership.
+							  </p>
+						    </div>
+						  </div>
+						  <div class="item">
+							<div class="item-link">
+							  <a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion1">
+								Do you have an example of what you mean by utility?
+							  </a>
+							</div>
+						  <div id="gstAccordion1" class="collapse accordion-block">
+							<p>
+							  Imagine you are a clothing brand and would like to offer a 10% discount to the World of Women NFT community.
+							  Utilizing Intrare, you would be able to offer NFT holders a unique code, good for 10% off in your store, once ownership is validated through our site.
+							  The code cannot be reused and it is only revealed if the NFT is in your account.
+							</p>
+						  </div>
+						</div>
+						  <!-- Accordion Item 02 -->
+						  <div class="item">
+						  	<div class="item-link">
+							    <a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion2">
+							      Will I have to connect to MetaMask?
+							    </a>
+						  	</div>
+						    <div id="gstAccordion2" class="collapse accordion-block">
+						      <p>
+								  Yes. We only request <b>READ</b> access which you approve when you slick "Sign".
+								  You do not interact with smart contracts on our website. Allowing us read access your wallet
+								  provides us the ability to read metadata from the public blockchain and validate NFT ownership.
+							  </p>
+						    </div>
+						  </div>
+						  <!-- Accordion Item 03 -->
+						  <div class="item">
+						  	<div class="item-link">
+							    <a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion3">
+								  I am the community manager of an NFT project, is this for me?
+							    </a>
+						  	</div>
+						    <div id="gstAccordion3" class="collapse accordion-block">
+						      <p>
+								<b>YES!</b> If you are interested in having your NFT community on our site, please fill out 
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSfFPcIH7gBSMOS-yD5u-wxWCW8PC2WWIImJxTb3W4_V-GUYTQ/viewform?usp=pp_url"><u>this form</u></a>  
+								and we will be in touch shortly!
+							  </p>
+						    </div>
+						  </div>
+						  <!-- Accordion Item 04 -->
+						  <div class="item">
+						  	<div class="item-link">
+							    <a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion4">
+							      I own a merch store, is this for me?
+							    </a>
+						  	</div>
+						    <div id="gstAccordion4" class="collapse accordion-block">
+						      <p>
+								  <b>YES!</b> If you are interested in connecting with NFT communites, please fill out 
+								  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfINVCjkUotThOKyVqtV1t1wPA72uXnrhVh5qCF8Eal71OYhw/viewform?usp=pp_url"><u>this form</u></a>
+								  and we will be in touch shortly!
+							  </p>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<!-- Account Accordion -->
+					<!-- Pricing & License Accordion -->
+					<!-- Getting Started Accordion -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+  
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  
+  <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/moralis.js"></script>
+  <script src="js/moralisDB.js"></script>
+  <script src="js/pages.js"></script>
+  <script src="js/collection.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
