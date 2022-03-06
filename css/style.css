@@ -445,6 +445,14 @@ button:focus,
     text-align: center;
   }
 }
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
 .main-nav .dropdown .dropdown-menu {
   border-radius: 0;
   padding: 0;
